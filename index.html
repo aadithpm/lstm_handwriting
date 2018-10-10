@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            Handwriting Generation
+        </title>
+        <link rel = "stylesheet" href = "style.css"/>
+    </head>
+    <body>
+        <form method = "post" action = "control.py">
+            <ul>
+                <li>
+                    <p>Enter the text to generate:</p>
+                </li>
+                <li>
+                    <input type = "text" id = "gen_text" />
+                </li>
+                <li>
+                    <p> Select a style (optional): </p>
+                </li>
+                <li>
+                    <input type = "radio" name = "style" id = "style1" />
+                    <label for = "style1"><img src = "imgs/style0.png" /></label>
+                </li>
+                <li>
+                    <input type = "radio" name = "style" id = "style2" />
+                    <label for = "style1"><img src = "imgs/style1.png" /></label>
+                </li>
+                <li>
+                    <input type = "radio" name = "style" id = "style3" />
+                    <label for = "style1"><img src = "imgs/style2.png" /></label>
+                </li>
+                <li>
+                    <input type = "radio" name = "style" id = "style4" />
+                    <label for = "style1"><img src = "imgs/style3.png" /></label>
+                </li>
+                <li>
+                    <button type = "submit" id = "generate">Submit</button>
+                </li>
+            </ul>     
+        </form>
+    </body>
+</html>
